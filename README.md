@@ -3,18 +3,18 @@ npm i json-server
 
 create file --> db.json
 {
-  "users": [
+  "Students": [
     {
-      "id": "1",
-      "name": "pugal gamer",
-      "no":46
+      "name": "Pugal",
+      "rollno":46
     }
   ]
 }
 
 changes in--> package.json
  "scripts": {
-    "server": "json-server --watch db.json --port 3003"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server --watch db.json --port 5000"
   },
 
 npm run server
